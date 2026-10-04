@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GTPMB.Core/GTPMB.Core.csproj" />
+    <Project Path="src/GTPMB/GTPMB.csproj" />
+  </Folder>
+  <!-- The test harness (tests/GTPMB.Tests, tests/ui) is not part of the repository: its corpus
+       runs depend on Polyphony's game files. It is its own project and builds without this solution. -->
+
+</Solution>

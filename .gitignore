@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+.vs/
+*.user
+*.log
+
+# Test scratch output (regenerated on every run)
+build/
+tests/ui/work/
+__pycache__/
+
+# The test harness and its corpus runs depend on local game files; kept out of the repository
+tests/
